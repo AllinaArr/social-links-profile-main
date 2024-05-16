@@ -1,0 +1,14 @@
+#body-info {
+  display: grid;
+  align-items: center;
+}
+
+#buttons-list {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  row-gap: 10px;
+}
+
+#social-link {
+}
