@@ -7,8 +7,22 @@
   display: grid;
   width: 200px;
   height: 100px;
-  row-gap: 10px;
+  gap: 10px;
 }
 
 #social-link {
+}
+
+.social-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff; /* Change to your desired color */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.social-link:hover {
+  background-color: #0056b3; /* Change to your desired hover color */
 }
