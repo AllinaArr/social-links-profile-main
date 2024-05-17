@@ -1,11 +1,28 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"); */
+
 :root {
   background-color: #fff3e4;
 }
 
-* {
-  font-family: "Vollkorn", serif;
-  font-weight: 500;
+@font-face {
+  font-family: "Ailerons";
+  src: url("/fonts/aileron/Aileron-Regular.woff2") format("woff2"),
+    url("/fonts/aileron/Aileron-Regular.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
+}
+
+* {
+  /* font-family: "Ailerons", sans-serif; */
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Ailerons", sans-serif;
+  font-size: 70px;
 }
 
 body {
@@ -20,6 +37,10 @@ body {
   background-position: center;
   position: relative;
 }
+/* 
+.fullName {
+  font-family: "Ailerons", sans-serif;
+} */
 
 #social-list {
   display: grid;
