@@ -1,16 +1,18 @@
 :root {
-  background-color: #ffffff;
-  /* background-color: #f6e9e9; */
-  /* background-color: #bb8493; */
-  /* background-color: #704264; */
-  /* background-color: #49243E; */
-  /* background-color: #DBAFA0; */
+  background-color: #fff3e4;
 }
+
+* {
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   display: flex;
-  justify-content: center; /* horizontally center content */
-  align-items: center; /* vertically center content */
-  min-height: 100vh; /* to ensure content fills the viewport height */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   margin: 0;
 }
 
@@ -31,7 +33,7 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   color: white;
-  background-color: #753f65;
+  background-color: #6b4f4f;
   border-radius: 5px;
   text-align: center;
   flex-direction: column;
@@ -40,7 +42,7 @@ body {
 }
 
 .social-link:hover {
-  background-color: #a46894;
+  background-color: #483434;
 }
 
 .attribution {
@@ -56,22 +58,22 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50px;
-  border: 3px solid #875177;
+  border: 3px solid #483434;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
 }
 
 .main-info {
-  text-align: center; /* center text content inside main-info */
+  text-align: center;
 }
 
 #name-info {
-  background-color: #eeafaf;
+  background-color: #eed6c4;
   margin: 100px;
   padding: 20px;
   border-radius: 10px;
-  color: black;
+  color: #3c353a;
   display: grid;
   flex-direction: column;
   align-items: center;
