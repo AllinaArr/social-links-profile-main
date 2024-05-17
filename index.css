@@ -1,24 +1,16 @@
 :root {
-  background-color: #bb8493;
+  background-color: #f6e9e9;
+  /* background-color: #bb8493; */
   /* background-color: #704264; */
   /* background-color: #49243E; */
   /* background-color: #DBAFA0; */
 }
 body {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 100px 100px 100px 100px;
-  background-color: #a87683;
-  border-radius: 30px;
-}
-
-#body-info {
-  /* display: grid; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100vh; */
+  display: flex;
+  justify-content: center; /* horizontally center content */
+  align-items: center; /* vertically center content */
+  min-height: 100vh; /* to ensure content fills the viewport height */
+  margin: 0;
 }
 
 .footer-info {
@@ -33,21 +25,21 @@ body {
   gap: 10px;
 }
 
-#social-link {
-}
-
 .social-link {
-  display: inline-block;
+  display: grid;
   padding: 10px 20px;
   text-decoration: none;
   color: white;
-  background-color: #007bff; /* Change to your desired color */
+  background-color: #49243e;
   border-radius: 5px;
   text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
 .social-link:hover {
-  background-color: #0056b3; /* Change to your desired hover color */
+  background-color: #704264;
 }
 
 .attribution {
@@ -56,4 +48,31 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 3px solid #875177;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-info {
+  text-align: center; /* center text content inside main-info */
+}
+
+#name-info {
+  background-color: #eeafaf;
+  margin: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
