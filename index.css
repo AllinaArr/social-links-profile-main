@@ -73,6 +73,7 @@ body {
   margin: 100px;
   padding: 20px;
   border-radius: 10px;
+  border: 2px solid #e6c0a3;
   color: #3c353a;
   display: grid;
   flex-direction: column;
