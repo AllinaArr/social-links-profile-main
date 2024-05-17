@@ -23,6 +23,7 @@
 h2 {
   font-family: "Ailerons", sans-serif;
   font-size: 70px;
+  margin: 10px;
 }
 
 body {
@@ -37,10 +38,6 @@ body {
   background-position: center;
   position: relative;
 }
-/* 
-.fullName {
-  font-family: "Ailerons", sans-serif;
-} */
 
 #social-list {
   display: grid;
@@ -76,9 +73,9 @@ body {
 
 .image {
   display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
   border: 3px solid #483434;
   justify-content: center;
   text-align: center;
