@@ -9,6 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 100px 100px 100px 100px;
+  background-color: #a87683;
+  border-radius: 30px;
 }
 
 #body-info {
