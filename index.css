@@ -34,7 +34,7 @@ body {
   text-decoration: none;
   color: white;
   background-color: #6b4f4f;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -72,7 +72,7 @@ body {
   background-color: #eed6c4;
   margin: 100px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 2px solid #e6c0a3;
   color: #3c353a;
   display: grid;
