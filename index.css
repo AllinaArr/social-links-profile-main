@@ -1,5 +1,6 @@
 :root {
-  background-color: #f6e9e9;
+  background-color: #ffffff;
+  /* background-color: #f6e9e9; */
   /* background-color: #bb8493; */
   /* background-color: #704264; */
   /* background-color: #49243E; */
@@ -30,7 +31,7 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   color: white;
-  background-color: #49243e;
+  background-color: #753f65;
   border-radius: 5px;
   text-align: center;
   flex-direction: column;
@@ -39,7 +40,7 @@ body {
 }
 
 .social-link:hover {
-  background-color: #704264;
+  background-color: #a46894;
 }
 
 .attribution {
